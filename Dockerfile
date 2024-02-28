@@ -44,13 +44,3 @@ ENV JUDGE0_VERSION "1.13.0"
 LABEL version=$JUDGE0_VERSION
 
 
-FROM production AS development
-
-
-RUN apt-get update && \
-    apt-get install -y --no-install-recommends \
-        tmux \
-        vim
-
-
-CMD ["sleep", "infinity"]

@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '~> 5.0'
 gem 'pg', '~> 1.2'
 
+gem 'racc', '~> 1.7', '>= 1.7.3'
 gem 'active_model_serializers', '~> 0.10'
 gem 'enumerations', '~> 2.3'
 gem 'httparty', '~> 0.21'
@@ -14,6 +15,7 @@ gem 'redis', '< 4.6'
 gem 'resque', '~> 2.6'
 gem 'resque-scheduler', '~> 4.10'
 gem 'will_paginate', '~> 3.2'
+gem 'nokogiri', '~> 1.11.1'
 
 group :development do
   gem 'annotate', '~> 3.0'
